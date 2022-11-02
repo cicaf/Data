@@ -15,7 +15,7 @@ plt.style.use('seaborn')
 fig, ax = plt.subplots()
 
 ax.plot(input_values,squares,linewidth=3)
-ax.set_title("SQUARE OF VALUE",fontsize=15)
+ax.set_title("SQUARE NUMBERS",fontsize=15)
 ax.set_xlabel("VALUE",fontsize=15)
 ax.set_ylabel("SQUARE OF VALUE",fontsize=14)
 
